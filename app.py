@@ -12,7 +12,7 @@ class NLPApp:
         self.dbo = Database()
         self.apio = API()
 
-        # login ka gui load karna
+        # login
         self.root = Tk()
         self.root.title('NLPApp')
         self.root.iconbitmap('resources/favicon.ico')
